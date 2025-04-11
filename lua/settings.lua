@@ -1,0 +1,11 @@
+vim.opt.number = true            -- 显示行号
+vim.opt.relativenumber = false   -- 相对行号
+vim.opt.tabstop = 4             -- Tab 宽度
+vim.opt.shiftwidth = 4          -- 缩进宽度
+vim.opt.expandtab = true        -- 使用空格替代 tab
+vim.opt.smartindent = true      -- 智能缩进
+vim.opt.termguicolors = true    -- 终端真彩色支持
+vim.opt.cursorline = true       -- 高亮当前行
+vim.opt.scrolloff = 8           -- 光标上下保留8行
+vim.opt.wrap = false            -- 不自动换行
+vim.opt.clipboard = "unnamedplus"  -- 系统剪贴板共享
